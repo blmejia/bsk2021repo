@@ -59,7 +59,6 @@ header .container .bar1, header .container .bar2, header .container .bar3 {
 .nav-drawer {
   height: auto;
   width: 95vw;
-  background-color: whitesmoke;
   border-radius: 20px;
 }
 
