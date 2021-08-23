@@ -81,7 +81,7 @@ header .container .bar1, header .container .bar2, header .container .bar3 {
   padding: 0.35em 1.2em;
   border: 0.1em solid #FFFFFF;
   margin: 0 0.3em 0.3em 0;
-  border-radius: 0.12em;
+  border-radius: 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   text-decoration: none;
