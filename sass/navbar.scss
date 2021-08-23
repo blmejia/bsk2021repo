@@ -50,33 +50,21 @@ header{
 //MOBILE DRAWER
 
 .nav-drawer{
-    
     height: auto;
     width: 95vw;
-    //background-color: hsl(0, 0%, 96%);
     border-radius: 20px;
-    
-
-
     ul{
         list-style: none;
         margin-top: 0;
-        //background-color: red;
         padding-top: 10%;
-
         li{
             margin-bottom: 10%;
-           // margin-left: 2%;
         }
     }
 
-    #button{
-        
+    #button{     
         margin: 5%;
-       // background-color: darkgoldenrod;
-
-      
-            .button4{
+       .button4{
                 display:inline-block;
                 padding:0.35em 1.2em;
                 border:0.1em solid #FFFFFF;
@@ -91,14 +79,31 @@ header{
                 background-color: #4eb5f1;
                 text-align:center;
                 transition: all 0.2s;
-                
             }
             .button4:hover{
-            
                 background-color:#4095c6;
             }
-        
     }
  
     
+}
+@media screen and (min-width: 800px) {
+    header{
+        width: 50vw;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 2%;
+    }
+
+    .nav-drawer{
+        ul{
+            padding-top: 2%;
+            li{
+                margin-bottom: 5%;
+            }
+        }
+        #button{
+            margin: 2%;
+        }
+    }
 }
