@@ -122,7 +122,7 @@ header .container .bar1, header .container .bar2, header .container .bar3 {
   }
 }
 
-@media handheld, (min-width: 650px), (max-width: 750px), (orientation: landscape) {
+@media handheld, (min-width: 650px) and (max-width: 750px), (orientation: landscape) {
   header img {
     width: auto;
     height: 20vh;

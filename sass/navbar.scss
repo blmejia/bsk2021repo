@@ -113,7 +113,7 @@ header{
     }
 }
 
-@media handheld, (min-width: 650px), (max-width: 750px), (orientation: landscape) { 
+@media handheld, (min-width: 650px) and (max-width: 750px), (orientation: landscape) { 
     header{
         img{
             width: auto;
