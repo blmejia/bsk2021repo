@@ -14,7 +14,7 @@ header{
 
     img{
         width: auto;
-        height: fit-content;
+        height: 10vh;
     }
 
     .change .bar1 {
@@ -107,3 +107,12 @@ header{
         }
     }
 }
+
+@media handheld, (min-width: 650px), (orientation: landscape) { 
+    header{
+        img{
+            width: auto;
+            height: 20vh;
+        }
+    }
+ }
