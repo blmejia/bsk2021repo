@@ -23,7 +23,9 @@ header {
 
 header img {
   width: auto;
-  height: 10vh;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 header .change .bar1 {
