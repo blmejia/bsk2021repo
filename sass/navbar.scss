@@ -12,6 +12,11 @@ header{
     position: fixed;
     z-index: 4;
 
+    .nav-active{
+        background-color: rgba(216, 135, 135, 0.541);
+       
+        transition: .2s ease-in-out;
+    }
     img{
         width: auto;
         height: 10vh;
@@ -108,7 +113,7 @@ header{
     }
 }
 
-@media handheld, (min-width: 650px), (orientation: landscape) { 
+@media handheld, (min-width: 650px), (max-width: 750px), (orientation: landscape) { 
     header{
         img{
             width: auto;
