@@ -17,14 +17,16 @@ burger.addEventListener('click', function(){
 
  window.onscroll = function(){
     if(window.scrollY > 80){
-        nav.classList.add(" nav-active")
+        nav.classList.add("nav-active");
        
         
       
     }
     else{
-        nav.classList.remove(" nav-active")
+        nav.classList.remove("nav-active")
             
       
     }
 }
+
+window.onscroll();

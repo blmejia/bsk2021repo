@@ -12,6 +12,12 @@ body h1, body h2, body h3, body h4, body p, body li {
   font-family: 'Montserrat', sans-serif;
 }
 
+.nav-active {
+  background-color: rgba(216, 135, 135, 0.541);
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
 header {
   width: 95vw;
   height: auto;
@@ -33,12 +39,6 @@ header {
       flex-wrap: wrap;
   position: fixed;
   z-index: 4;
-}
-
-header .nav-active {
-  background-color: rgba(216, 135, 135, 0.541);
-  -webkit-transition: .2s ease-in-out;
-  transition: .2s ease-in-out;
 }
 
 header img {
