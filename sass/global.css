@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  height: 200vh;
+  background-color: #8A0303;
+}
+
+body h1, body h2, body h3, body h4, body p, body li {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  width: 95vw;
+  height: 10vh;
+  background-color: white;
+  margin: 2%;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.41);
+          box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.41);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  z-index: 4;
+}
+
+header img {
+  width: 100%;
+  height: 10vh;
+}
+
+header .change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-4px, 4.5px);
+          transform: rotate(-45deg) translate(-4px, 4.5px);
+}
+
+header .change .bar2 {
+  opacity: 0;
+}
+
+header .change .bar3 {
+  background-color: pink;
+  -webkit-transform: rotate(45deg) translate(-8.5px, -8px);
+          transform: rotate(45deg) translate(-8.5px, -8px);
+}
+
+header .container {
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 5%;
+}
+
+header .container .bar1, header .container .bar2, header .container .bar3 {
+  width: 35px;
+  height: 3px;
+  background-color: #333;
+  margin: 6px 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.nav-drawer {
+  height: auto;
+  width: 100vw;
+  background-color: whitesmoke;
+}
+
+.nav-drawer ul {
+  list-style: none;
+  margin-top: 0;
+  padding-top: 10%;
+}
+
+.nav-drawer ul li {
+  margin-bottom: 10%;
+}
+
+.nav-drawer #button {
+  margin: 5%;
+}
+
+.nav-drawer #button .button4 {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #FFFFFF;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  color: white;
+  background-color: #4eb5f1;
+  text-align: center;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.nav-drawer #button .button4:hover {
+  background-color: #4095c6;
+}
+/*# sourceMappingURL=global.css.map */

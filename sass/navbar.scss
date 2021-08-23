@@ -1,0 +1,101 @@
+header{
+    width: 95vw;
+    height: 10vh;
+    background-color: white;
+    margin: 2%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.41);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 4;
+
+    img{
+        width: 100%;
+        height: 10vh;
+    }
+
+    .change .bar1 {
+        transform: rotate(-45deg) translate(-4px, 4.5px);
+      }
+      
+    .change .bar2 {
+        opacity: 0;
+    }
+      
+    .change .bar3 {
+        background-color: pink;
+        transform: rotate(45deg) translate(-8.5px, -8px);
+      }
+
+    .container{
+        display: inline-block;
+        cursor: pointer;
+        margin-right: 5%;
+        .bar1, .bar2, .bar3 {
+            width: 35px;
+            height: 3px;
+            background-color: #333;
+            margin: 6px 0;
+            transition: 0.4s;
+          }
+
+        
+
+    }
+}
+
+//MOBILE DRAWER
+
+.nav-drawer{
+    
+    height: auto;
+    width: 100vw;
+    background-color: hsl(0, 0%, 96%);
+    
+
+
+    ul{
+        list-style: none;
+        margin-top: 0;
+        //background-color: red;
+        padding-top: 10%;
+
+        li{
+            margin-bottom: 10%;
+           // margin-left: 2%;
+        }
+    }
+
+    #button{
+        //padding: 20px;
+        margin: 5%;
+       // background-color: darkgoldenrod;
+
+      
+            .button4{
+                display:inline-block;
+                padding:0.35em 1.2em;
+                border:0.1em solid #FFFFFF;
+                margin:0 0.3em 0.3em 0;
+                border-radius:0.12em;
+                box-sizing: border-box;
+                text-decoration:none;
+                font-family:'Roboto',sans-serif;
+                font-weight:300;
+                color: white;
+                background-color: #4eb5f1;
+                text-align:center;
+                transition: all 0.2s;
+                
+            }
+            .button4:hover{
+            
+                background-color:#4095c6;
+            }
+        
+    }
+ 
+    
+}

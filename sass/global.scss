@@ -1,0 +1,28 @@
+
+//FONTS
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+//COLORS
+$white: white;
+$black: black;
+$red: #8A0303;
+$silver: silver;
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    height: 200vh;
+    background-color: $red;
+
+    h1,h2,h3,h4,p, li{
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+//Component styles
+@import '../sass/hero.scss';
+@import '../sass/footer.scss';
+@import '../sass/navbar.scss';
+@import '../sass/news.scss';
+@import '../sass/spotlight.scss';
