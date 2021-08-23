@@ -8,6 +8,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     position: fixed;
     z-index: 4;
 
@@ -51,8 +52,9 @@ header{
 .nav-drawer{
     
     height: auto;
-    width: 100vw;
+    width: 95vw;
     background-color: hsl(0, 0%, 96%);
+    border-radius: 20px;
     
 
 
