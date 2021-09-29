@@ -41,6 +41,49 @@ header {
   z-index: 4;
 }
 
+header .nav-drawer {
+  height: auto;
+  width: 95vw;
+  border-radius: 20px;
+  background-color: white;
+}
+
+header .nav-drawer ul {
+  list-style: none;
+  margin-top: 0;
+  padding-top: 5%;
+}
+
+header .nav-drawer ul li {
+  margin-bottom: 8%;
+}
+
+header .nav-drawer #button {
+  margin: 5%;
+}
+
+header .nav-drawer #button .button4 {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #FFFFFF;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  color: white;
+  background-color: #4eb5f1;
+  text-align: center;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+header .nav-drawer #button .button4:hover {
+  background-color: #4095c6;
+}
+
 header img {
   width: auto;
   height: 10vh;
@@ -76,70 +119,12 @@ header .container .bar1, header .container .bar2, header .container .bar3 {
   transition: 0.4s;
 }
 
-.nav-drawer {
-  height: auto;
-  width: 95vw;
-  border-radius: 20px;
-}
-
-.nav-drawer ul {
-  list-style: none;
-  margin-top: 0;
-  padding-top: 5%;
-}
-
-.nav-drawer ul li {
-  margin-bottom: 8%;
-}
-
-.nav-drawer #button {
-  margin: 5%;
-}
-
-.nav-drawer #button .button4 {
-  display: inline-block;
-  padding: 0.35em 1.2em;
-  border: 0.1em solid #FFFFFF;
-  margin: 0 0.3em 0.3em 0;
-  border-radius: 20px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  text-decoration: none;
-  font-family: 'Roboto',sans-serif;
-  font-weight: 300;
-  color: white;
-  background-color: #4eb5f1;
-  text-align: center;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
-.nav-drawer #button .button4:hover {
-  background-color: #4095c6;
-}
-
 @media screen and (min-width: 800px) {
   header {
     width: 50vw;
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 2%;
-  }
-  .nav-drawer ul {
-    padding-top: 2%;
-  }
-  .nav-drawer ul li {
-    margin-bottom: 5%;
-  }
-  .nav-drawer #button {
-    margin: 2%;
-  }
-}
-
-@media screen and (min-width: 650px) and (max-width: 750px), (orientation: landscape) {
-  header img {
-    width: auto;
-    height: 10vh;
   }
   .nav-drawer ul {
     padding-top: 2%;
